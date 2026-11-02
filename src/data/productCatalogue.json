@@ -1,0 +1,615 @@
+[
+    {
+        "id":  "ms-adjustable-props",
+        "name":  "MS Adjustable Props",
+        "description":  "Sturdy support for beams and slabs during staging, for conventional as well as Mivan shuttering.",
+        "features":  [
+                         "Cost effective, optimal design and low maintenance",
+                         "Easy and safe application",
+                         "Longer lifespan",
+                         "Sturdy construction"
+                     ],
+        "specs":  {
+                      "construction":  "Roll threaded",
+                      "outer_tube":  "60.3mm OD",
+                      "inner_tube":  "48.3mm OD",
+                      "tube_standard":  "IS 1161:2014"
+                  },
+        "variants":  {
+                         "head_types":  [
+                                            "Standard Head",
+                                            "Angle Support",
+                                            "U-Head",
+                                            "Beam Bottom",
+                                            "Rolled Thread Outer"
+                                        ],
+                         "components":  [
+                                            "Heavy duty prop nut with handle",
+                                            "G-Pin or U-Pin",
+                                            "Base plate"
+                                        ]
+                     },
+        "size_table":  [
+                           {
+                               "size":  "0N",
+                               "height_closed_m":  1.10,
+                               "height_extended_m":  1.75,
+                               "safe_axial_load_closed_kg":  3500,
+                               "safe_axial_load_extended_kg":  3000
+                           },
+                           {
+                               "size":  "1N",
+                               "height_closed_m":  1.50,
+                               "height_extended_m":  2.75,
+                               "safe_axial_load_closed_kg":  3200,
+                               "safe_axial_load_extended_kg":  2300
+                           },
+                           {
+                               "size":  "2N",
+                               "height_closed_m":  2.00,
+                               "height_extended_m":  3.25,
+                               "safe_axial_load_closed_kg":  3000,
+                               "safe_axial_load_extended_kg":  2200
+                           },
+                           {
+                               "size":  "3N",
+                               "height_closed_m":  2.00,
+                               "height_extended_m":  3.75,
+                               "safe_axial_load_closed_kg":  2900,
+                               "safe_axial_load_extended_kg":  2000
+                           },
+                           {
+                               "size":  "4N",
+                               "height_closed_m":  3.00,
+                               "height_extended_m":  4.50,
+                               "safe_axial_load_closed_kg":  2300,
+                               "safe_axial_load_extended_kg":  1150
+                           }
+                       ],
+        "catalogue_category":  "Scaffolding and Staging"
+    },
+    {
+        "id":  "cuplock-system",
+        "name":  "Cuplock System",
+        "description":  "Multipurpose steel scaffolding and staging system. Vertical standards with equidistant cups allow secure connection of up to 4 horizontal ledgers per cup. Used from small projects to large industrial projects.",
+        "features":  [
+                         "Versatility and flexibility",
+                         "High load bearing capacity compared to contemporary systems",
+                         "Easy application and dismantling",
+                         "Increased safety due to excellent stability"
+                     ],
+        "components":  [
+                           {
+                               "name":  "MS Cuplock Vertical",
+                               "weights_kg":  [
+                                                  {
+                                                      "length_m":  0.5,
+                                                      "weight_kg":  2.21
+                                                  },
+                                                  {
+                                                      "length_m":  1,
+                                                      "weight_kg":  4.45
+                                                  },
+                                                  {
+                                                      "length_m":  1.5,
+                                                      "weight_kg":  6.68
+                                                  },
+                                                  {
+                                                      "length_m":  2,
+                                                      "weight_kg":  8.9
+                                                  },
+                                                  {
+                                                      "length_m":  2.5,
+                                                      "weight_kg":  11.05
+                                                  },
+                                                  {
+                                                      "length_m":  3,
+                                                      "weight_kg":  13.35
+                                                  }
+                                              ]
+                           },
+                           {
+                               "name":  "MS Cuplock Ledger",
+                               "weights_kg":  [
+                                                  {
+                                                      "length_m":  0.5,
+                                                      "weight_kg":  1.98
+                                                  },
+                                                  {
+                                                      "length_m":  0.6,
+                                                      "weight_kg":  2.32
+                                                  },
+                                                  {
+                                                      "length_m":  0.75,
+                                                      "weight_kg":  2.82
+                                                  },
+                                                  {
+                                                      "length_m":  0.9,
+                                                      "weight_kg":  3.31
+                                                  },
+                                                  {
+                                                      "length_m":  1,
+                                                      "weight_kg":  3.65
+                                                  },
+                                                  {
+                                                      "length_m":  1.2,
+                                                      "weight_kg":  4.52
+                                                  },
+                                                  {
+                                                      "length_m":  1.5,
+                                                      "weight_kg":  5.32
+                                                  },
+                                                  {
+                                                      "length_m":  1.75,
+                                                      "weight_kg":  6.3
+                                                  },
+                                                  {
+                                                      "length_m":  1.8,
+                                                      "weight_kg":  6.35
+                                                  },
+                                                  {
+                                                      "length_m":  2,
+                                                      "weight_kg":  6.98
+                                                  },
+                                                  {
+                                                      "length_m":  2.5,
+                                                      "weight_kg":  8.65
+                                                  }
+                                              ]
+                           },
+                           {
+                               "name":  "Spigot / Jointer Pins",
+                               "description":  "Connecting pins used to join two vertical pipes, with two holes drilled to receive nut bolts.",
+                               "specs":  {
+                                             "size":  "38 OD",
+                                             "lengths_mm":  [
+                                                                250,
+                                                                300
+                                                            ]
+                                         }
+                           },
+                           {
+                               "name":  "U Jacks and Base Jacks",
+                               "available_sizes_mm":  [
+                                                          450,
+                                                          600,
+                                                          750,
+                                                          900,
+                                                          1000
+                                                      ],
+                               "custom_sizes":  true,
+                               "variants":  [
+                                                {
+                                                    "type":  "Hollow",
+                                                    "pipe":  "38mm OD coil pipe",
+                                                    "thickness_mm":  3.2,
+                                                    "welded_components":  "6mm thick base plate or stirrup head",
+                                                    "fitting":  "Jack nut for locking at desired height"
+                                                },
+                                                {
+                                                    "type":  "Solid",
+                                                    "pipe":  "Solid pipe 32mm, 34mm or 38mm OD",
+                                                    "welded_components":  "6mm thick base plate or stirrup head",
+                                                    "fitting":  "Cup nut or jack nut for locking at desired height"
+                                                }
+                                            ]
+                           }
+                       ],
+        "catalogue_category":  "Scaffolding and Staging"
+    },
+    {
+        "id":  "h-frame",
+        "name":  "H Frame",
+        "description":  "Ideal for wall plastering and for supporting staging for centering of high slabs.",
+        "features":  [
+                         "Welded 40 NB frames",
+                         "Two H frames joined by 32 OD bracing pipes",
+                         "Custom sizes can be fabricated"
+                     ],
+        "specs":  {
+                      "frame_pipe":  "40 NB",
+                      "bracing_pipe":  "32 OD",
+                      "standard_size":  "2m x 1m",
+                      "cross_bracing":  "8ft"
+                  },
+        "variants":  [
+                         "H-Frame",
+                         "H-Frame with Ladder",
+                         "H-Frame Hook"
+                     ],
+        "catalogue_category":  "Scaffolding and Staging"
+    },
+    {
+        "id":  "ms-platform-plank",
+        "name":  "MS Platform / MS Plank",
+        "description":  "Working platforms made out of square pipes.",
+        "specs":  {
+                      "material":  "25x25mm square pipe",
+                      "lengths_ft":  [
+                                         6,
+                                         8,
+                                         10
+                                     ]
+                  },
+        "finishes_shown":  [
+                               "Green",
+                               "Blue",
+                               "Red oxide",
+                               "Black"
+                           ],
+        "catalogue_category":  "Scaffolding and Staging"
+    },
+    {
+        "id":  "scaffolding-ladder",
+        "name":  "Scaffolding Ladder",
+        "description":  "Built-in stairs and handrails for heavy-duty, high-reach tasks. Made with exterior cuplock frame or H frames for support. Valuable for infra projects and early stages of a new construction site.",
+        "features":  [
+                         "Secure attachment to scaffolding frames with clamps and cross bracing",
+                         "Customizable for different heights",
+                         "Optional castor wheels for mobility on smaller reaches",
+                         "High load bearing capacity with excellent welding quality"
+                     ],
+        "catalogue_category":  "Scaffolding and Staging"
+    },
+    {
+        "id":  "ms-adjustable-telescopic-span",
+        "name":  "MS Adjustable Telescopic Span",
+        "description":  "Made of an outer span and an inner span. The inner span glides over the outer span and is fastened with a double eye bolt at the required distance.",
+        "features":  [
+                         "Dip painted and dried before dispatch",
+                         "Safe overlap of 300mm to be considered",
+                         "Extra stiffener welded inside outer span for strength"
+                     ],
+        "specs":  {
+                      "inner_span":  "2mm HR sheet, 40x40x5mm T-angle, 10mm round bar, 75x6mm corner angle",
+                      "outer_span":  "2mm HR sheet, 65x6mm MS flat, 10mm round bar, 75x6mm corner angle, double M20 nut bolt, 35x35x5mm angle stiffener",
+                      "sizes_m":  [
+                                      "2x2",
+                                      "2.3x2.3",
+                                      "2.5x2.5",
+                                      "3x3"
+                                  ],
+                      "safe_overlap_mm":  300,
+                      "example_opening":  "2x2m span opens to 3.7m"
+                  },
+        "variants":  [
+                         {
+                             "name":  "Acrospan",
+                             "description":  "Truss-type telescopic span"
+                         },
+                         {
+                             "name":  "MS Adjustable Box Span",
+                             "specs":  {
+                                           "outer_span":  "72x72x2.5mm thick square pipe",
+                                           "inner_span":  "60x60x2.5mm thick square pipe"
+                                       }
+                         }
+                     ],
+        "catalogue_category":  "Scaffolding and Staging"
+    },
+    {
+        "id":  "centering-plates",
+        "name":  "Centering Plates",
+        "description":  "Fabricated from high-grade mild steel, mainly used to form slabs in RCC construction. A durable and reusable alternative to traditional wooden frames.",
+        "specs":  {
+                      "sheet_thickness_mm":  [
+                                                 2,
+                                                 1.8,
+                                                 1.6,
+                                                 1.2
+                                             ],
+                      "angle_reinforcement":  "25/30/35mm x 25/30/35 x 3/4/5mm MS angles as per requirement",
+                      "finish":  "Spray painted with red-oxide primer"
+                  },
+        "variants":  [
+                         {
+                             "type":  "Riveted and Welding Type",
+                             "common_size":  "600x900 to 610x915mm"
+                         },
+                         {
+                             "type":  "Stitch Welding Type",
+                             "common_size":  "600x900 to 610x915mm"
+                         },
+                         {
+                             "type":  "Folding Type",
+                             "common_size":  "600x900 to 600x1150mm",
+                             "note":  "Sheet metal channel support gives an excellent surface finish"
+                         },
+                         {
+                             "type":  "Well plates",
+                             "common_size":  "18in x 48in"
+                         },
+                         {
+                             "type":  "Gabdi Plates",
+                             "note":  "Adjustable variants to cover odd shapes"
+                         }
+                     ],
+        "custom_sizes":  true,
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "wallform-panels",
+        "name":  "Wallform Panels",
+        "description":  "Plates with stiffeners and slotted angle frames. Number of stiffeners depends on size and client requirements. Soldier plates join the panels.",
+        "specs":  {
+                      "sheet":  "2.5mm thick HRC sheet",
+                      "stiffeners":  "50x5mm MS flats",
+                      "border_frame":  "50x50x5mm slotted angle, holes at 50mm c/c",
+                      "soldier_plates":  "Same material specification, with tie rod holes"
+                  },
+        "accessories":  [
+                            "Single Clip",
+                            "Double Clip",
+                            "Wedge Clip Male / Female",
+                            "Wedge Clip U-Type"
+                        ],
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "round-and-box-columns",
+        "name":  "Round and Box Columns",
+        "description":  "Manufactured in different diameters and heights with starters as per customer needs.",
+        "specs":  {
+                      "sheet_thickness_mm":  [
+                                                 2,
+                                                 2.5
+                                             ],
+                      "stiffeners":  "40x5 / 50x5mm MS flat and profile flat supports",
+                      "slotted_angle_frames":  "40x40x5 / 50x50x5mm lengthwise borders"
+                  },
+        "variants":  [
+                         "Round Columns",
+                         "Box Columns"
+                     ],
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "adjustable-modular-box-columns",
+        "name":  "Adjustable Modular Box Columns",
+        "description":  "Long-term, cost-effective solution for single-pour casting of square and rectangular columns. Designed for precision, durability and ease of use.",
+        "common_sizes":  [
+                             "9\" x 9\"-12\"-15\" x 4\u0027/7\u0027/8\u0027",
+                             "9\" x 12\"-15\"-18\" x 4\u0027/7\u0027/8\u0027",
+                             "9\" x 15\"-18\"-21\" x 4\u0027/7\u0027/8\u0027"
+                         ],
+        "variants":  [
+                         {
+                             "type":  "Light weight",
+                             "specs":  "2mm HR sheet, horizontal flat 38x5mm, vertical flat 32x6mm, with hole support strips"
+                         },
+                         {
+                             "type":  "Heavy weight",
+                             "specs":  "2.5mm HR sheet, horizontal flat 38x6mm, vertical flat 32x6mm, with hole support strips"
+                         }
+                     ],
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "haunch-plate",
+        "name":  "Haunch Plate",
+        "description":  "Specialized formwork element supporting the sloped haunch section of a concrete bridge deck during casting. Ensures accurate shaping, load distribution and smooth finish between superstructure and substructure.",
+        "specs":  {
+                      "sheet":  "2.5mm",
+                      "exterior_frame":  "50x50x5mm angle",
+                      "interior_support":  "50x5mm MS flat"
+                  },
+        "common_sizes_mm":  [
+                                "150x150x1250",
+                                "300x300x1250"
+                            ],
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "girder-shuttering",
+        "name":  "Girder Shuttering (I-Girder)",
+        "description":  "Engineered formwork for I-girders commonly used in flyovers, bridges and large-scale infrastructure. Suited to highways, metro projects, railway structures and long-span bridges.",
+        "features":  [
+                         "Robust mild steel construction for strength and resistance to heavy loads and deformation",
+                         "Superior concrete finish, minimizing post-casting finishing work",
+                         "Quick assembly and reusability through modular design",
+                         "Custom-built dimensions to match girder profiles",
+                         "Reinforced with stiffeners and reliable locking mechanisms to withstand concrete pressure"
+                     ],
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "crash-barrier",
+        "name":  "Crash Barrier Shuttering",
+        "description":  "Mild steel shuttering plate for road infrastructure projects. Ideal for repetitive use and demanding site conditions, ensuring efficient installation and consistent shaping of concrete crash barriers.",
+        "features":  [
+                         "High quality welding for strength and longevity",
+                         "Blue colour coating for corrosion resistance"
+                     ],
+        "variants":  [
+                         "Regular crash barrier profile",
+                         "Double radius profile"
+                     ],
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "shuttering-plywood-plates",
+        "name":  "Shuttering Plywood Plates",
+        "description":  "Precision-engineered panels used for drain shuttering.",
+        "specs":  {
+                      "exterior_frame":  "50x50x5mm slotted angles",
+                      "interior_support":  "50x5mm MS flat",
+                      "ply":  "12mm shuttering ply with tie rod holes",
+                      "alternative_frame":  "Square pipe frame on request",
+                      "most_common_size":  "8ft x 4ft"
+                  },
+        "catalogue_category":  "Shuttering and Formwork"
+    },
+    {
+        "id":  "bracing-tubes",
+        "name":  "Bracing Tubes",
+        "description":  "40 NB tubes widely used for bracing, and as supports for slabs and structural frameworks, typically used with stirrup heads for secure top connections.",
+        "specs":  {
+                      "size":  "40 NB",
+                      "standard":  "IS 1239 (Medium Class)"
+                  },
+        "catalogue_category":  "Accessories"
+    },
+    {
+        "id":  "pipe-bracing-couplers-clamps",
+        "name":  "Pipe Bracing Couplers and Clamps",
+        "items":  [
+                      {
+                          "name":  "Press Swivel Clamp",
+                          "sizes":  "40x40 / 40x50 / 50x50 mm"
+                      },
+                      {
+                          "name":  "Press Right Angle Clamp",
+                          "sizes":  "40x40 / 40x50 / 50x50 mm"
+                      },
+                      {
+                          "name":  "Sleeve Clamp",
+                          "sizes":  "48mm, 51mm"
+                      },
+                      {
+                          "name":  "Forged Swivel Clamp",
+                          "sizes":  "40x40 mm"
+                      },
+                      {
+                          "name":  "Forged Right Angle Clamp",
+                          "sizes":  "40x40 mm"
+                      },
+                      {
+                          "name":  "Beam Clamp"
+                      },
+                      {
+                          "name":  "Expanding Joint Pins"
+                      },
+                      {
+                          "name":  "Pressed Swivel Clamp, Korean Type (Light)"
+                      },
+                      {
+                          "name":  "Fencing Coupler"
+                      }
+                  ],
+        "catalogue_category":  "Accessories"
+    },
+    {
+        "id":  "tie-rod-accessories",
+        "name":  "Tie Rod and Tie Rod Accessories",
+        "description":  "Tie rods ensure structural integrity and alignment of shuttering systems, especially in wall and column formwork.",
+        "specs":  {
+                      "tie_rod_diameter_mm":  16,
+                      "tie_rod_length_m":  3
+                  },
+        "items":  [
+                      "MS Tie Rod",
+                      "Wing Nuts",
+                      "Anchor Nuts (100mm flange)"
+                  ],
+        "catalogue_category":  "Accessories"
+    },
+    {
+        "id":  "column-clamps",
+        "name":  "Column Clamps",
+        "features":  [
+                         "Durable",
+                         "Versatile",
+                         "Easy to use"
+                     ],
+        "variants":  [
+                         {
+                             "name":  "Shikanja",
+                             "description":  "Column clamp made from 32x6mm MS flat, suitable for steel and timber shuttering. No loose parts.",
+                             "sizes_and_weights":  [
+                                                       {
+                                                           "size_ft":  2,
+                                                           "approx_weight_kg":  1.45
+                                                       },
+                                                       {
+                                                           "size_ft":  2.5,
+                                                           "approx_weight_kg":  1.7
+                                                       },
+                                                       {
+                                                           "size_ft":  3,
+                                                           "approx_weight_kg":  1.9
+                                                       },
+                                                       {
+                                                           "size_ft":  4,
+                                                           "approx_weight_kg":  2.4
+                                                       }
+                                                   ]
+                         },
+                         {
+                             "name":  "MS Waller",
+                             "description":  "Used for requirements of 4ft and above. Made of two ISMC sections welded together using square bars.",
+                             "sections_mm":  [
+                                                 "70x35",
+                                                 "75x40",
+                                                 "100x50"
+                                             ]
+                         }
+                     ],
+        "catalogue_category":  "Accessories"
+    },
+    {
+        "id":  "safety-brackets",
+        "name":  "Safety Brackets",
+        "variants":  [
+                         "Beam Bracket",
+                         "Slab Bracket"
+                     ],
+        "catalogue_category":  "Accessories"
+    },
+    {
+        "id":  "wall-brackets",
+        "name":  "Wall Brackets",
+        "specs":  {
+                      "material":  "50x50x2/2.5mm thick square pipes and 50x5mm MS angles"
+                  },
+        "variants":  [
+                         "A Type",
+                         "B Type",
+                         "C Type"
+                     ],
+        "catalogue_category":  "Accessories"
+    },
+    {
+        "id":  "wheelbarrows",
+        "name":  "Wheelbarrows",
+        "description":  "Durable, efficient wheelbarrows in multiple designs for diverse construction site needs.",
+        "models":  [
+                       "Single Wheelbarrow",
+                       "Double Wheelbarrow"
+                   ],
+        "variants":  [
+                         {
+                             "type":  "Pipe Type",
+                             "description":  "Made from precision-engineered CRCA tubes for strength and durability."
+                         },
+                         {
+                             "type":  "Angle Type",
+                             "description":  "Built with robust angle sections for long service life, reliability and high load capacity. Ideal for concrete handling and heavy-duty site work."
+                         }
+                     ],
+        "catalogue_category":  "Site Equipment"
+    },
+    {
+        "id":  "concrete-tray",
+        "name":  "Concrete Tray",
+        "description":  "Heavy-duty, corrosion-resistant tray for on-site concrete mixing.",
+        "sizes_ft":  [
+                         "6x4",
+                         "8x4"
+                     ],
+        "variants":  [
+                         {
+                             "type":  "Standard",
+                             "specs":  "1.6mm MS sheet with 25x25x3mm MS angle frame"
+                         },
+                         {
+                             "type":  "Light weight",
+                             "specs":  "1.2mm MS sheet with 25x25x2mm MS angle frame"
+                         },
+                         {
+                             "type":  "GI sheet",
+                             "specs":  "Available for enhanced corrosion resistance"
+                         }
+                     ],
+        "catalogue_category":  "Site Equipment"
+    }
+]

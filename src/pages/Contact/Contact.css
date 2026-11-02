@@ -1,0 +1,24 @@
+/* Two columns, 20px apart, centred: 404 (offices) + 432 (direct lines). Figma top = 640 + 62 (ticker) + 100. */
+.contact-cards { display: flex; align-items: center; justify-content: center; gap: 20px; padding: 100px var(--page-pad) 0; }
+.contact-cards__offices { flex: none; display: flex; flex-direction: column; gap: var(--space-8); width: 404px; }
+.ccard { display: flex; flex-direction: column; gap: var(--space-4); background: #fbfbfb; border-radius: var(--radius-lg); box-shadow: inset 0 0 0 1px #e9e9e9; }
+.ccard--lines { flex: none; width: 432px; }
+.ccard__head { display: flex; align-items: center; gap: 11px; padding: var(--space-6); box-shadow: inset 0 -1px 0 #e9e9e9; }
+.ccard__head h2 { font-size: var(--fs-card-title) ; font-weight: var(--fw-medium); line-height: var(--lh-normal); color: var(--color-primary); }
+.ccard__head--plain { gap: 0; }
+.ccard__badge { flex: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: var(--color-accent); border-radius: 5px; color: var(--color-white); }
+.ccard__address { display: flex; align-items: flex-start; gap: var(--space-4); padding: var(--space-6); font-size: var(--fs-body); line-height: var(--lh-body); color: var(--color-text-muted); }
+.ccard__address svg { flex: none; color: var(--color-text-muted); }
+.ccard__address address { flex: 1 1 0; min-width: 0; font-style: normal; }
+.ccard__lines { display: flex; flex-direction: column; margin: 0; padding: 0; list-style: none; }
+.ccard__lines li { display: flex; align-items: flex-start; gap: var(--space-4); padding: 13px 18px; box-shadow: inset 0 -1px 0 #e9e9e9; font-size: 18px; font-weight: var(--fw-medium); line-height: var(--lh-normal); color: var(--color-primary); }
+.ccard__lines svg { flex: none; }
+.ccard__lines a { white-space: nowrap; }
+.contact-cards + .quote { margin-top: 101.8px; }
+
+@media (max-width: 1023px) {
+  .contact-cards { flex-direction: column; align-items: stretch; padding-top: 60px; }
+  .contact-cards__offices, .ccard--lines { width: auto; }
+  .ccard__lines a { white-space: normal; overflow-wrap: anywhere; }
+  .contact-cards + .quote { margin-top: 80px; }
+}

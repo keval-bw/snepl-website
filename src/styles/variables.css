@@ -1,0 +1,94 @@
+/* Design tokens extracted from Figma (file W0HD30UaGl7K1ZoBCjZmQz).
+   Desktop canvas 1440px, content container 1240px, 100px side padding. */
+:root {
+  /* Colors */
+  --color-primary: #0b2545;
+  --color-accent: #0877c9;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-text-muted: #9a9a9a;
+  --color-text-label: #707070;
+  --color-text-footer: #989898;
+  --color-text-on-dark: #d9d9d9;
+  --color-placeholder: #b4b4b4;
+  --color-input-bg: #f7fbff;
+  --color-input-stroke: #d4d4e3;
+  --color-border: #d8d8d8;
+  --color-surface: #f7f7f7;
+  --color-surface-soft: #f6f6f6;
+  --color-glass: rgba(255, 255, 255, 0.1);
+  --color-glass-border: rgba(255, 255, 255, 0.2);
+  --color-stats-bar: rgba(7, 28, 44, 0.2);
+  --overlay-image: rgba(0, 0, 0, 0.38);
+  --overlay-cta: rgba(11, 37, 69, 0.78);
+
+  /* Typography */
+  --font-primary: 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-secondary: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-h1: 52px;
+  --fs-h2: 40px;
+  --fs-h3: 34px;
+  --fs-h4: 26px;
+  --fs-card-title: 24px;
+  --fs-stat: 42px;
+  --fs-lead: 20px;
+  --fs-body: 16px;
+  --fs-small: 14px;
+  --fs-nav: 16px;
+  --fs-nav-active: 17px;
+
+  --lh-body: 20px;
+  --lh-normal: 1.096; /* Archivo "normal" as rendered in Figma (40px -> 44px) */
+  --ls-eyebrow: 2.8px;
+
+  /* Spacing (values observed in Figma auto-layout) */
+  --space-1: 4px;
+  --space-2: 6px;
+  --space-3: 8px;
+  --space-4: 10px;
+  --space-5: 12px;
+  --space-6: 14px;
+  --space-7: 16px;
+  --space-8: 18px;
+  --space-9: 20px;
+  --space-10: 24px;
+  --space-11: 28px;
+  --space-12: 44px;
+  --space-13: 60px;
+  --space-14: 72px;
+
+  /* Layout */
+  --container: 1240px;
+  --page-pad: 100px;
+  --canvas: 1440px;
+  --nav-top: 30px;
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+
+  /* Shadows */
+  --shadow-form:
+    0 48px 26.5px rgba(0, 0, 0, 0.05),
+    0 18.489px 8.441px rgba(0, 0, 0, 0.03),
+    0 3.911px 2.159px rgba(0, 0, 0, 0.02);
+
+  /* Gradients */
+  --gradient-section: linear-gradient(to top, #ffffff, #f6f6f6);
+  --gradient-image-overlay: linear-gradient(to left, rgba(0, 0, 0, 0), var(--overlay-image));
+}
+
+/* Breakpoints (inferred: Figma only has 1440 desktop frames)
+   laptop <= 1279 | tablet <= 1023 | mobile <= 767 | small <= 479
+   Custom properties can't be used inside @media, so they are documented here. */
+
+@media (max-width: 1279px) { :root { --page-pad: 60px; } }
+@media (max-width: 1023px) { :root { --page-pad: 40px; } }
+@media (max-width: 767px)  { :root { --page-pad: 20px; } }

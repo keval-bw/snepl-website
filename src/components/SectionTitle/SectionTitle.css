@@ -1,0 +1,7 @@
+.section-title { display: flex; flex-direction: column; gap: var(--space-8); max-width: 708px; }
+.section-title__text { display: flex; flex-direction: column; gap: var(--space-6); }
+.section-title--light .section-title__eyebrow, .section-title--light .t-h2 { color: var(--color-white); }
+.section-title--light .t-body { color: var(--color-text-on-dark); }
+
+.section-title--center { align-items: center; margin-inline: auto; text-align: center; }
+.section-title--center .section-title__text { align-items: center; }

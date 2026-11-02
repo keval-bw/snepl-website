@@ -1,0 +1,29 @@
+.products-browse { padding-top: 80px; }
+.products-browse__head { display: flex; flex-direction: column; gap: var(--space-8); width: 314px; max-width: 100%; }
+
+/* Search + chips (Figma x=105..1335, gap 21) */
+.filter-bar { display: flex; align-items: center; gap: 21px; margin: 37.9px 5px 0; }
+.filter-bar__search { flex: 1 1 0; min-width: 0; display: flex; align-items: center; gap: var(--space-2); padding: var(--space-3) var(--space-4); background: var(--color-surface); border: 1px solid #e4e4e4; border-radius: var(--radius-sm); color: var(--color-placeholder); }
+.filter-bar__search svg { flex: none; }
+.filter-bar__search input { flex: 1 1 0; min-width: 0; padding: 0; border: 0; background: transparent; font-size: var(--fs-body); line-height: 18px; color: var(--color-primary); outline: 0; }
+.filter-bar__search input::placeholder { color: #bcbcbc; opacity: 1; }
+.filter-bar__search:focus-within { border-color: var(--color-accent); }
+.filter-bar__chips { display: flex; gap: var(--space-4); flex: none; }
+.chip { padding: var(--space-3) var(--space-4); background: var(--color-surface); border: 1px solid #e4e4e4; border-radius: var(--radius-sm); font-size: var(--fs-body); font-weight: var(--fw-regular); line-height: 18px; color: #808080; white-space: nowrap; }
+.chip.is-active { background: var(--color-accent); border-color: var(--color-accent); font-weight: var(--fw-medium); color: var(--color-white); }
+
+/* Grid: 4 columns x 296.5, 18px column gap, 40px row gap */
+.product-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px 18px; margin: 60px 0 0; padding: 0; list-style: none; }
+.product-grid > li { display: flex; min-width: 0; }
+.product-grid > li > * { flex: 1 1 auto; }
+.product-grid__empty { margin-top: 60px; padding: var(--space-13) 0; text-align: center; font-size: var(--fs-lead); }
+/* Figma anchors the quote block to the page bottom: 79px below the last card row */
+.products-browse + .quote { margin-top: 79px; }
+
+@media (max-width: 1279px) {
+  .filter-bar { flex-direction: column; align-items: stretch; margin-inline: 0; }
+  .filter-bar__chips { flex-wrap: wrap; }
+  .product-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 767px) { .product-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-9) var(--space-6); } .products-browse { padding-top: 56px; } }
+@media (max-width: 599px) { .product-grid { grid-template-columns: 1fr; } }

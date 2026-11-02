@@ -1,0 +1,8 @@
+/* ---------- Ticker ---------- */
+.ticker { overflow: hidden; background: var(--color-primary); }
+.ticker__track { display: flex; width: max-content; animation: ticker 45s linear infinite; }
+.ticker__set { display: flex; margin: 0; padding: var(--space-9) 0 var(--space-9) var(--space-4); list-style: none; }
+.ticker__item { display: flex; align-items: center; gap: var(--space-4); padding-right: var(--space-7); color: var(--color-white); font-size: var(--fs-lead); font-weight: var(--fw-semibold); line-height: var(--lh-normal); white-space: nowrap; }
+.ticker__dot { display: block; width: 8px; height: 8px; margin: 1.657px; background: var(--color-white); transform: rotate(-45deg); }
+@keyframes ticker { to { transform: translateX(-50%); } }
+
