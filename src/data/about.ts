@@ -11,8 +11,8 @@ export const aboutStats: readonly Stat[] = [
 ];
 
 export const missionVision: readonly { icon: IconName; title: string; text: string; dark?: boolean }[] = [
-  { icon: 'target', title: 'Our Mission', text: 'To design, manufacture, and deliver high-quality steel scaffolding and formwork systems that empower construction professionals with robust, cost-effective, and safe support structures committed to engineering excellence, on-time delivery, and customer satisfaction, while upholding the highest standards.' },
-  { icon: 'eye', dark: true, title: 'Our Vision', text: 'Our ambition is to become a worldwide leader in steel scaffolding and formwork solutions. We prioritize continuous innovation and unwavering reliability in all products. Sustainability lies at the heart of everything we create, ensuring our solutions support environmental responsibility. We are dedicated to enhancing safety and efficiency.' },
+  { icon: 'our-mission', title: 'Our Mission', text: 'To design, manufacture, and deliver high-quality steel scaffolding and formwork systems that empower construction professionals with robust, cost-effective, and safe support structures committed to engineering excellence, on-time delivery, and customer satisfaction, while upholding the highest standards.' },
+  { icon: 'our-vision', dark: true, title: 'Our Vision', text: 'Our ambition is to become a worldwide leader in steel scaffolding and formwork solutions. We prioritize continuous innovation and unwavering reliability in all products. Sustainability lies at the heart of everything we create, ensuring our solutions support environmental responsibility. We are dedicated to enhancing safety and efficiency.' },
 ];
 
 /** yearSide: which side of the centre line the year badge sits on. */

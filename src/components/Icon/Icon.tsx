@@ -1,6 +1,6 @@
 import { resolveIcon } from '@/lib/assets';
 
-export type IconName = 'instagram' | 'facebook' | 'x' | 'linkedin' | 'phone' | 'mail' | 'arrow-up-right' | 'chevron-down' | 'security-check' | 'shield-check' | 'building' | 'drone' | 'arrow-right' | 'target' | 'eye' | 'factory' | 'manufacture' | 'cog' | 'square-arrow-right' | 'understand' | 'engineer' | 'deliver' | 'material preparation' | 'fabrication & welding' | 'inspection checkpoints' | 'dispatch planning' | 'search' | 'share' | 'close' | 'call-circle' | 'mail-circle' | 'location';
+export type IconName = 'instagram' | 'facebook' | 'x' | 'linkedin' | 'phone' | 'mail' | 'arrow-up-right' | 'chevron-down' | 'security-check' | 'shield-check' | 'building' | 'drone' | 'arrow-right' | 'target' | 'eye' | 'our-mission' | 'our-vision' | 'factory' | 'manufacture' | 'cog' | 'square-arrow-right' | 'understand' | 'engineer' | 'deliver' | 'material preparation' | 'fabrication & welding' | 'inspection checkpoints' | 'dispatch planning' | 'search' | 'share' | 'close' | 'call-circle' | 'mail-circle' | 'location';
 
 /* Stand-in glyphs. Drop the Figma SVG as src/assets/icons/<name>.svg to override. */
 const glyphs: Partial<Record<IconName, JSX.Element>> = {
